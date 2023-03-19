@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\margo\Documents\Visual Studio 2019\Lab2test\Debug\Lab2test.exe</FullPath>
+      <FullPath>C:\Users\margo\source\repos\MargoPonomarenko\sdmt-2\Debug\Lab2test.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\margo\Documents\Visual Studio 2019\Lab2test\Debug\Lab2TestProject.exe</FullPath>
+      <FullPath>C:\Users\margo\source\repos\MargoPonomarenko\sdmt-2\Debug\Lab2TestProject.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
