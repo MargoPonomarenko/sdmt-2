@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\margo\source\repos\MargoPonomarenko\sdmt-2\Debug\Lab2TestProject.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="TestLinkedListLength.TestEmpty" Duration="1" />
+    <TestDuration Test="CheckAddingAnElement.TestEmpty" Duration="1" />
+    <TestDuration Test="CheckAddingAndGettingElement." Duration="1" />
+    <TestDuration Test="CheckListLength." Duration="1" />
+    <TestDuration Test="CheckDeletingOfElement." Duration="1" />
+    <TestDuration Test="CheckDeletingByValue." Duration="1" />
+    <TestDuration Test="CheckAddingAndGettingElement.SuccessAdding" Duration="1" />
+    <TestDuration Test="CheckListLength.TrueLength" Duration="1" />
+    <TestDuration Test="CheckDeletingOfElement.SuccessDeleting" Duration="1" />
+    <TestDuration Test="CheckDeletingByValue.SuccessValueDeleting" Duration="1" />
+    <TestDuration Test="CheckAddingElement.SuccessAdding" Duration="1" />
+    <TestDuration Test="CheckDeletingByValue.SuccessValueGetting" Duration="1" />
+    <TestDuration Test="CheckGettingElement.SuccessGetting" Duration="1" />
+    <TestDuration Test="CheckGListCloning.SuccessGetting" Duration="1" />
+    <TestDuration Test="CheckGListCloning.SuccessCloning" Duration="1" />
+    <TestDuration Test="CheckListReversing.SuccessReversing" Duration="1" />
+    <TestDuration Test="CheckFindingFirst.TrueFirstCharacter" Duration="1" />
+    <TestDuration Test="CheckFindingLast.TrueLastCharacter" Duration="1" />
+    <TestDuration Test="CheckInsertToIndex.SuccessInserting" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
