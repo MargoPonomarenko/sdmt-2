@@ -96,7 +96,6 @@ TEST(CheckFindingLast, TrueLastCharacter) {
 	EXPECT_EQ(list.findLast('4'), 4);
 	EXPECT_EQ(list.findLast('7'), -1);
 }
-
 TEST(CheckInsertToIndex, SuccessInserting) {
 	LinkedList list;
 	list.append('3');
