@@ -23,7 +23,7 @@ jobs:
       - name: Run MSBuild
         id: run_msbuild
         working-directory: ./
-        run: msbuild.\Lab2test.sln
+        run: msbuild .\Lab2test.sln
 
       - name: Setup VSTest and add to PATH
         uses: darenm/Setup-VSTest@v1
