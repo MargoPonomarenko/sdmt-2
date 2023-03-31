@@ -15,15 +15,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2.1.0
         id: checkout_code
-
+        
       - name: Setup MSBuild and add to PATH
-        uses: microsoft/setup-msbuild@v1.0.0
+        uses: microsoft/setup-msbuild@v1.0.2
         id: setup_msbuild
 
       - name: Run MSBuild
         id: run_msbuild
         working-directory: $
-        run: msbuild .\Lab2test.sln
+        run: msbuild.\Lab2test.sln
 
       - name: Setup VSTest and add to PATH
         uses: darenm/Setup-VSTest@v1
