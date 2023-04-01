@@ -9,22 +9,23 @@ on:
   pull_request:
     branches:
       - main
-
+      
 jobs:
-  build:
+  run-msbuild-vstest:
     runs-on: windows-latest
-
+    name: Run MSBuild and VSTest
+    
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Set up MSVC
-      uses: actions/setup-msbuild@v1
-      with:
-        vs-version: '16.0'
-        architecture: 'x64'
-
-    - name: Build and test
-      run: |
-        msbuild /p:Configuration=Release /p:Platform=x64
-        cd Debug
-        Lab2TestProject.exe
+      - name: Checkout code
+        uses: actions/checkout@v2.1.0
+        id: checkout_code
+        
+      - name: Setup MSBuild and add to PATH
+        uses: microsoft/setup-msbuild@v1.0.2
+        id: setup_msbuild
+        
+      - name: Build and test
+        run: |
+          msbuild /p:Configuration=Release /p:Platform=x64
+          cd Debug
+          Lab2TestProject.exe
