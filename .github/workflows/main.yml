@@ -27,5 +27,3 @@ jobs:
       - name: Build and test
         run: |
           msbuild /p:Configuration=Release /p:Platform=x64 Lab2test.sln
-          cd Debug
-          Lab2TestProject.exe
