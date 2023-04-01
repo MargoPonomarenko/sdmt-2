@@ -105,3 +105,27 @@ TEST(CheckInsertToIndex, SuccessInserting) {
 	list.insert('6', 1);
 	EXPECT_EQ(list.get(1), '6');
 }
+
+TEST(CheckExtendToList, SuccessExtending) {
+	LinkedList list;
+	list.append('3');
+	list.append('4');
+
+	LinkedList extendingList;
+	extendingList.append('5');
+	extendingList.append('6');
+	list.extend(extendingList);
+
+	EXPECT_EQ(list.get(2), '5');
+	EXPECT_EQ(list.get(3), '6');
+}
+
+TEST(CheckClearList, SuccessClearing) {
+	LinkedList list;
+	list.append('3');
+	list.append('4');
+	list.append('5');
+	list.clear();
+
+	EXPECT_EQ(list.length(), 0);
+}

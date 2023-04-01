@@ -1,2 +1,3 @@
 ﻿  test.cpp
+LinkedList.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
   Lab2TestProject.vcxproj -> C:\Users\margo\source\repos\MargoPonomarenko\sdmt-2\Debug\Lab2TestProject.exe

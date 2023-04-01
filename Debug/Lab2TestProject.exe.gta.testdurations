@@ -22,5 +22,7 @@
     <TestDuration Test="CheckFindingFirst.TrueFirstCharacter" Duration="1" />
     <TestDuration Test="CheckFindingLast.TrueLastCharacter" Duration="1" />
     <TestDuration Test="CheckInsertToIndex.SuccessInserting" Duration="1" />
+    <TestDuration Test="CheckExtendToList.SuccessExtending" Duration="1" />
+    <TestDuration Test="CheckClearList.SuccessClearing" Duration="1" />
   </TestDurations>
 </GtaTestDurations>
