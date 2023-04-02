@@ -15,19 +15,19 @@ int main()
     firstList.append('e');
     firstList.append('a');
 
-    cout << "First list length: " << firstList.length() << endl;
-    cout << "First list elements: ", firstList.print();
+    cout << "First list length: " << firstList.length();
+    cout << "\nFirst list elements: ", firstList.print();
 
     LinkedList secondList;
-    cout << "Second list length: " << secondList.length() << endl;
+    cout << "\nSecond list length: " << secondList.length();
 
     firstList.insert('e', 3);
     cout << "\nFirst list after insert(): ", firstList.print();
 
-    cout << "Deleted character: " << firstList.deleteChar(0);
+    cout << "\nDeleted character: " << firstList.deleteChar(0);
     cout << "\nFirst list after delete(): ", firstList.print();
     firstList.deleteAll('e');
-    cout << "First list after deleteAll(): ", firstList.print();
+    cout << "\nFirst list after deleteAll(): ", firstList.print();
 
     cout << "\nCharacter at given position: " << firstList.get(1);
 
@@ -35,7 +35,7 @@ int main()
     cout << "\nCloned list: ", clonedList->print();
 
     firstList.reverse();
-    cout << "First list after reverse(): ", firstList.print();
+    cout << "\nFirst list after reverse(): ", firstList.print();
 
     cout << "\nPosition of first search character is: " << firstList.findFirst('a');
     cout << "\nPosition of last search character is: " << firstList.findLast('a');
@@ -47,7 +47,8 @@ int main()
     secondList.append('0');
     secondList.append('m');
     secondList.append('a');
-
+    cout << "\nSecond list elements: ", secondList.print();
+    
     firstList.extend(secondList);
     cout << "\nFirst list after extend(): ", firstList.print();
 }
